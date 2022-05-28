@@ -404,25 +404,41 @@ main {
     height:625px;
     margin-left: 496px;
     bottom: 540px;
+    position: relative;
     
 }
-.premium-text{
+.premium-head {
     width: 333px;
     height: 52px;
-    margin-right: 54px;
+    position: relative;
+    top: 58px;
+    margin-left: 54px;
+    font-family: 'Abel', sans-serif;
+    
     
 }
+
+.premium-head h1{
+    display:inline;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FCFAF9;
+}
+
+
+
 .price {
-    margin-right:227px ;
-    margin-top: 341px;
+    margin-right:227px;
+    margin-top: 231px;
+
    
 }
 /*download button ios*/
 .ios {
     width: 333px;
     height: 61px;
-    margin-top: 439px;
-    
+   
+ 
 }
 /*hover over the ios button and its color change*/
 .ios:hover{
@@ -431,7 +447,7 @@ main {
 /*android button and android hover*/
 .android {
     width: 333px;
-    margin-top:516px ;
+   ;
     
 }
 .android:hover{
@@ -441,7 +457,7 @@ main {
 /*second equalizer text*/
 .equalizer-box2 {
     position: absolute;
-    margin-left: 165px;
+    margin-left: 165px; 
     bottom: 91px;
     width: 146.06px;
     height: 32px;
@@ -450,7 +466,7 @@ main {
 
 /*footer with the icons*/
 footer {
-    position:absolute;
+    position:absolute;    
     bottom: 10px;
     margin-right: 165px;
     

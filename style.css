@@ -357,18 +357,34 @@ main {
         
          
     }
-/*content is the div/box for h1 */
+/*content is the div/box for h1,p */
 
 .content h1 {
     width: 1015px;
     height: 176px;
+    margin-top: 40px;
     margin-left: 165px;
     margin-top: 62px;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 88px;
+}
+
+.content p {
+display: block;
+width: 825px;
+height: 102px;
+margin-left: 164.5px;
+line-height:34px;
+color:#191826;
+font-size: 20px;
+font-family:
 }
     
 /*first equalizer text box*/
 .equalizer-box {
     margin-left: 165px;
+   
 }
 
 .bg-pattern-1{
@@ -396,7 +412,7 @@ main {
     height: 642px;
     position: relative;
     bottom: 200px;
-    margin-left: 29px;
+    margin-left: 102px;
 }
 /*second section would be the orange box with "premiun text"*/
 .second-section{
@@ -405,6 +421,7 @@ main {
     margin-left: 496px;
     bottom: 540px;
     position: relative;
+    margin: collapse;
     
 }
 .premium-head {
@@ -423,22 +440,45 @@ main {
     font-size: 40px;
     font-weight: 400;
     color: #FCFAF9;
+    line-height: 52px;
 }
-
-
-
-.price {
-    margin-right:227px;
-    margin-top: 231px;
-
+.premium-text {
+    display:block;
+    margin-top: 50px;
+    margin-left: 54px;
+   
    
 }
+
+.premium-text p {
+    display: block;
+    font-size: 20px;
+    line-height: 34px;
+    font-size: 20px;
+    font-family: 'IBMPlexSans';
+}
+
+/*price container and price text*/
+.price {
+    display: block;
+    width:165px ;
+    height: 52px;
+    margin-top: 271px;
+  
+   
+    
+}
+.price p {
+    font-weight: 400;
+}
+.month {
+    font-size: 15px;
+}
+
 /*download button ios*/
 .ios {
     width: 333px;
     height: 61px;
-   
- 
 }
 /*hover over the ios button and its color change*/
 .ios:hover{
@@ -447,8 +487,7 @@ main {
 /*android button and android hover*/
 .android {
     width: 333px;
-   ;
-    
+    margin-bottom: 5px;
 }
 .android:hover{
     background-color: #FFB964;
@@ -468,6 +507,7 @@ main {
 footer {
     position:absolute;    
     bottom: 10px;
+    margin-right: 165px;
     margin-right: 165px;
     
 }
